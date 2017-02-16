@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Nom de l'onglet </title>
-	<link rel="stylesheet" type="text/css" href="">
-	
-	<meta charset="utf-8">
+  <title>My super site!</title>
 </head>
-
 <body>
-<script>
-	
-	function myMap() {
+  <h1>My super site</h1>
+  
+  <div id="map" style="width:400px;height:400px;background:yellow"></div>
+  
+  <script>
+  function myMap() {
     var mapOptions = {
       center: new google.maps.LatLng(51.5, -0.12),
       zoom: 10,
@@ -22,10 +20,7 @@
     var marker = new google.maps.Marker({position:myCenter});
     marker.setMap(map);
   }
-	
-	</script>
-	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB_zZ_ceexMyCeh_cWVcfebREfcUiY7wW8&callback=myMap"></script>
-	<p>nouveau site web</p>
-	<div id="map" style="width:400px;height:400px"></div>
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCm-Mkwk5L-lmg0_oG0nu-2PfM7T-pYQJM &callback=myMap"></script>
 </body>
 </html>
